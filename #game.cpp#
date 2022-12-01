@@ -7,6 +7,6 @@ void Game::setRating(int ratingOut){
   return;
 }
 void Game::print(){
-  cout << "Title: " << title << endl << "Year: " << year << endl << "Publisher: " << publisher << endl << "Critic Rating: " << rating << endl << endl;
+  cout << "Title: " << title << endl << "Year: " << year << endl << "Publisher: " << publisher << endl << "Rating: " << rating << endl << endl;
   return;
 }

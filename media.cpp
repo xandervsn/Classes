@@ -13,6 +13,13 @@ void Media::setYear(int yearOut){
   year = yearOut;
 }
 
+void Media::setPublisher(char* publisherOut){
+  for(int i = 0; i < 80; i++){
+    publisher[i] = publisherOut[i];
+  }
+  return;
+}
+
 void Media::getTitle(char* strOut){
   for(int i = 0; i <sizeof(title); i++){
     strOut[i] = title[i];
@@ -23,13 +30,4 @@ int Media::getYear(){
   return year;
 }
 
-void Media::print(){
-}
-
-
-void Media::setPublisher(char* publisherOut){
-  for(int i = 0; i < 80; i++){
-    publisher[i] = publisherOut[i];
-  }
-  return;
-}
+void Media::print(){}

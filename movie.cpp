@@ -15,6 +15,6 @@ void Movie::setDirector(char* directorOut){
 }
 
 void Movie::print(){
-  cout << "Title: " << title << endl << "Year: " << year << endl << "publisher: " << publisher << endl << "director: " << director << endl << "Duration: " << duration << endl << endl;
+  cout << "Title: " << title << endl << "Year: " << year << endl << "Publisher: " << publisher << endl << "Director: " << director << endl << "Duration: " << duration << endl << endl;
   return;
 }
